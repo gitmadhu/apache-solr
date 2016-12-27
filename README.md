@@ -1,14 +1,14 @@
 # apache-solr
-## all solr examples
-*start solr
-	> bin/solr.cmd start
-*stop solr
-	> bin/solr.cmd stop -all
+## Getting started with Solr
+* start solr
+> bin/solr.cmd start
+* stop solr
+> bin/solr.cmd stop -all
 * run solr with example core 'techproducts' (techproducts: is an example comes with solr )
-	> bin\solr.cmd start -e techproducts
+> bin\solr.cmd start -e techproducts
 	* check browse the product at [http://localhost:8983/solr/techproducts/browse](http://localhost:8983/solr/techproducts/browse)
 * create core
-	> bin/start.cmd create -c nameOfTheCore
+> bin/start.cmd create -c nameOfTheCore
 * add fields to your 'managed-schema' file
 * create 'data-import.xml' which defines how data/meta data of pdf will be extracted.
 * add dataimport configuaration to you 'solrconfig.xml'
