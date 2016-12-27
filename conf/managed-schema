@@ -1002,5 +1002,14 @@
        <str name="paramkey">param value</str>
      </similarity>
     -->
+	 
+<field name="fileName" type="string" indexed="true" stored="true" />
+<field name="author" type="string" indexed="true" stored="true" />
+<field name="title" type="string" indexed="true" stored="true" />
+ 
+<field name="size" type="tlong" indexed="true" stored="true" />
+<field name="lastModified" type="tdate" indexed="true" stored="true" />
+ 
+<field name="text" type="text_general" indexed="true" stored="false" multiValued="true"/>
 
 </schema>
