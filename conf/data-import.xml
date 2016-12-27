@@ -3,7 +3,7 @@
         <document>
             <entity name="files" dataSource="null" rootEntity="false"
             processor="FileListEntityProcessor"
-            baseDir="c:/temp/docs" fileName=".*\.(doc)|(pdf)|(docx)"
+            baseDir="D:/invenio/todo/mera/ebooks" fileName=".*\.(doc)|(pdf)|(docx)"
             onError="skip"
             recursive="true">
                 <field column="fileAbsolutePath" name="id" />
